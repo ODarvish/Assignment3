@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en", lang="sv">
+<head>
+  <title>Rock, Paper, Scissors</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/styles.css">
+  <script src="./js/rockpaperscissors.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>The game Rock, Paper, Scissors</h1>
+  </header>
+  <main>
+    <hr>
+    <div id="container">
+      <section>
+        <div class="clr"></div>
+        <div class="grid-container">
+          <div >
+            <a class="button" onclick="userSelection('rock')"><img src="./images/rock.png" class="respon">Rock</a>
+          </div>
+          <div>
+            <a class="button" onclick="userSelection('paper')"><img src="./images/paper.png" class="respon" >Paper</a>
+          </div>
+          <div >
+            <a class="button" onclick="userSelection('scissors')"><img src="./images/scissors.png" class="respon" >Scissors</a>
+          </div>
+      </section>
+      <br>
+      <hr>
+      <p id="score">
+        First to win 3 games is the champion! Your score: 0 | Computer score: 0
+      </p>
+      <hr>
+      <p id="reports">
+        You can start the game by chose one of the buttons above!
+      </p> 
+      <br> 
+      <a href="">Restart the game</a>
+    </div>
+  </main>
+  <footer>
+    <p>Copyright &copy; 2022 Ario</p>
+  </footer>
+</body>
