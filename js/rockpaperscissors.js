@@ -63,3 +63,10 @@ function playGame() {
   result += "\nYou chose " + userInput + " - the computer chose " + computerInput;
   document.getElementById("reports").textContent =result;
 }
+
+function restart() {
+  userPoints = 0;
+  computerPoints = 0;
+  document.getElementById("score").textContent= "First to win 3 games is the champion! Your score: " + userPoints + " | Computer score: " + computerPoints;
+  document.getElementById("reports").textContent ="You can start the game by chose one of the buttons above!";
+}
