@@ -79,3 +79,31 @@ footer {
 #score {
   font-size: 20px;
 }
+@media screen and (max-width: 848px) {
+  .respon {
+    width: 50%;
+}
+
+.button {
+  font-size: 70%;
+}
+
+#score {
+  font-size: 80%;
+}
+
+#reports {
+  font-size: 70%;
+}
+
+header {
+  font-size: 70%;
+}
+
+}
+
+@media screen and (max-width: 420px) {
+.button {
+  font-size: 50%;
+}
+}
